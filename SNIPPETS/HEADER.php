@@ -16,18 +16,15 @@
           integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
     <link rel="stylesheet" href="CSS/index.css"/>
-    <title></title>
-    <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
-<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
             data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
             aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!--suppress HtmlUnknownTarget -->
     <a class="navbar-brand" href="index.php">
         <img src="http://res.cloudinary.com/sonarsystems/image/upload/c_scale,w_150/v1442498022/Sonar-Systems-Circle-Logo_quet2k.png"
              width="30" height="30" alt="">
@@ -35,11 +32,11 @@
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item navLi active">
+                <a class="nav-link navButton" href="#HomeSection">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+            <li class="nav-item navLi">
+                <a class="nav-link navButton" href="#tt">Link</a>
             </li>
         </ul>
 
